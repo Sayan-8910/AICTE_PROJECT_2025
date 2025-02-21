@@ -38,24 +38,20 @@ cd steganography-tool
 2️⃣ Install Required Libraries
 
 bash
-Copy code
 pip install opencv-python numpy pillow
 3️⃣ Run the Script
 
 bash
-Copy code
 python stego.py
 🛠️ How to Use
 1️⃣ Hide a Message
 Run the script with the following command:
 bash
-Copy code
 python stego.py --hide --input mypic.jpg --output encoded.png --message "Your secret message"
 This will save a new image (encryptedimage.jpg) with the hidden message inside.
 2️⃣ Extract a Message
 To retrieve a hidden message, run:
 bash
-Copy code
 python stego.py --extract --input encoded.png
 The script will display the extracted secret message.
 📜 License
@@ -71,7 +67,6 @@ This project is open-source and available under the MIT License.
 2. Modify the script name (`stego.py`) if your script has a different filename.  
 3. Add a **sample image** (`image.png`) in your GitHub repository for demonstration.  
 
-Let me know if you need further modifications! 🚀
 
 
 
